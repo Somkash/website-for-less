@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+:root{
+    --hero-bg: var(#74C69D);
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+.hero{
+    background-color: #74C69D;
+    min-width: 350px;
+    color:white;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 1rem 2rem;
+}
+
+.hero .logo{
+    display:flex;
+    align-items:center;
+}
+
+.hero .logo h2{
+    color:white;
+    font-family: "work-sans", sans-serif;
+    font-size:2em;
+}   
+
+.hero header .open-menu{
+    cursor:pointer;
+}
+
+.hero nav{
+    display:none;
+}
+.hero_content{
+    padding: 1rem;
+}
+.hero .tagline{
+    text-transform:uppercase;
+    font-size:1.2em;
+    letter-spacing: .5em;
+    line-height: 2em;
+}
+
+.hero .hero_main-heading{
+    font-size: 2.5em;
+    font-weight:bold;
+    font-family: "Poppins", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.explore-cta{
+    margin: 1rem 0;
+}
+.explore-cta a{
+    font-size: 1em;
+    color:black;
+    background-color:white;
+    padding: .5rem 1.5rem;
+    border-radius: 4px;;
+}
+
+.hero_illustration{
+    margin-block:2rem;
+}
+
+.hero_illustration img{
+    display:block;
+    width:80%;
+    margin: 1rem auto;
+   
+}
